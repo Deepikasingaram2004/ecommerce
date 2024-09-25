@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eCommerce Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>Product Name</h1>
+        <p>Experience the best with our exclusive product!</p>
+    </header>
+
+
+    <section class="product-section">
+        <div class="product-images">
+            <img src="mainproduct.jpeg" alt="Main Product" id="main-image">
+            <div class="additional-images">
+                <img src="product1.jpeg" alt="Product 1" onclick="changeImage('product1.jpg')">
+                <img src="product2.jpeg" alt="Product 2" onclick="changeImage('product2.jpg')">
+                <img src="product3.jpeg" alt="Product 3" onclick="changeImage('product3.jpg')">
+            </div>
+        </div>
+
+        <div class="product-info">
+            <h2>Exclusive Product</h2>
+            <p>This product is made with high-quality materials, ensuring a premium experience.</p>
+            <p><strong>Price:</strong> rs.100/-</p>
+            <button class="cta-btn">Add to Cart</button>
+        </div>
+    </section>
+
+
+    <section class="cta-section">
+        <h3>Don't Miss Out!</h3>
+        <p>Buy now to enjoy special discounts and offers.</p>
+        <button class="cta-btn">Buy Now</button>
+    </section>
+
+    <section class="reviews-section">
+        <h2>Customer Reviews</h2>
+        <div class="review">
+            <p>"This product changed my life! Excellent quality and value for money!"</p>
+            <span>- Happy Customer</span>
+        </div>
+        <div class="review">
+            <p>"Great product! Fast shipping and top-notch customer service."</p>
+            <span>- Satisfied Buyer</span>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-links">
+            <a href="#">Learn More</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="social-icons">
+            <a href="#"><img src="facebook-icon.webp" alt="Facebook"></a>
+            <a href="#"><img src="instagram-icon.jpeg" alt="Instagram"></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
